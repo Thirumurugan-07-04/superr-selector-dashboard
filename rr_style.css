@@ -1,0 +1,87 @@
+/* Rajasthan Royals-inspired sports analytics presentation layer. */
+.stApp {
+  background: transparent;
+}
+
+[data-testid="stSidebar"] {
+  background: linear-gradient(180deg, #172236 0%, #283B5C 58%, #E41E78 160%);
+}
+
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] span {
+  color: #FFFFFF;
+}
+
+[data-testid="stMetric"] {
+  border-radius: 18px;
+  padding: 16px 18px;
+  box-shadow: 0 5px 15px rgba(23, 34, 54, 0.08);
+}
+
+[data-testid="stMetricLabel"] {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+[data-testid="stMetricValue"] {
+  font-weight: 750;
+}
+
+[data-testid="stDataFrame"] {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+button[kind="primary"] {
+  background: #E41E78;
+  border-color: #E41E78;
+}
+
+button[kind="primary"]:hover {
+  background: #C91667;
+  border-color: #C91667;
+}
+
+.rr-hero {
+  background: linear-gradient(112deg, #172236 0%, #293D61 56%, #E41E78 165%);
+  color: #FFFFFF;
+  border-radius: 24px;
+  padding: 30px 34px;
+  margin: 0 0 22px 0;
+  box-shadow: 0 16px 34px rgba(23, 34, 54, 0.16);
+}
+
+.rr-kicker {
+  color: #FFC4DF;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.rr-hero h1 {
+  color: #FFFFFF;
+  font-size: 2.35rem;
+  line-height: 1.08;
+  margin: 0 0 8px 0;
+}
+
+.rr-hero p {
+  color: #FCEAF3;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 780px;
+}
+
+.rr-section-label {
+  color: #C91667;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
